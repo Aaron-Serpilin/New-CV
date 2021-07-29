@@ -1,0 +1,156 @@
+body {
+   margin: 0; 
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   color: #405a4e;
+}
+
+h1 {
+    margin: 0 auto 0 auto; /* top right bottom left*/
+    font-family: 'Sacramento';
+    font-size: 5.625rem; /* 16px = 100% = 1em in font size. % and em are dynamic sizes. rem is the same as em except it is not affected by parent ems. For example if the body had a font size of 2 em, and our h1 had 5.625 em, then the h1 size would be 11.25 em. With rem, it is not affected by parents sizes*/
+    color:  #66bfbf;
+}
+
+h2 {
+    font-size: 2.5rem; /* This is equivalent to 40px, 40/16 = 2.5*/
+    color:  #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+}
+
+h2, 
+h3 {
+    font-family: 'Monteserrat', sans-serif;
+}
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+.topContainer {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottomCloud,
+.topCloud {
+    position: absolute;
+}
+
+.topCloud {
+   right: 350px;
+   top: 50px; 
+}
+
+.bottomCloud {
+    left: 350px;
+    bottom: 300px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+.personalPhoto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto auto auto;
+}
+
+.personalDescription {
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+
+.skillRow {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+}
+
+.skillPhoto {
+    width: 25%;
+    padding: 30px; 
+}
+
+.code-img {
+    float: left; /* This will cause the photo to be the left part of its parent div, and consequently, make the h3 and p wrap around it. Floats should only be used for wrapping text, not positioning*/
+    /* clear is basically the anti-float. It prevents text or images from having content wrapped around it*/
+}
+
+.lightning-img {
+    float: right;
+}
+
+.contactMessage {
+    margin: 40px auto auto auto;
+}
+
+.button {
+    background: #66BFBF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width: 137px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 29px;
+    margin: 60px auto 60px auto;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button:hover {
+    background: #97daf5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.bottomContainer {
+    background-color: #66bfbf;
+    padding: 50px 0 20px 0;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #11999e;
+    margin: 10px 20px 10px;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+    color: #eaf6f6;
+}
+
+.licenses {
+    font-size: 0.75em;
+    color: #eaf6f6;
+    padding: 20px 0 20px 0;
+}
